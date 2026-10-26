@@ -2,12 +2,15 @@
 
 A PDF reader that feels like reading on real paper. Put your PDFs on a shelf, pick one up and turn it in 3D, then read it with a realistic page curl, a pencil, a highlighter, sticky notes and calm sounds.
 
+**Try it:** https://alzoum.github.io/paper/
+
 ## Run
 
 ```bash
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # static site in dist/, host anywhere
+npm run deploy   # build and publish to GitHub Pages
 ```
 
 ## The shelf

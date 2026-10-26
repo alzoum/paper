@@ -1,18 +1,20 @@
 {
-  "name": "folio-reader",
+  "name": "paper",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
-  "description": "A tactile PDF reader that feels like a real book",
+  "description": "A PDF reader that feels like reading on real paper",
   "dependencies": {
     "idb": "^8.0.0",
     "page-flip": "^2.0.7",
     "pdfjs-dist": "^4.10.38"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.3.5"
   },
   "private": true,
