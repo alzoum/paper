@@ -748,6 +748,11 @@ button {
   margin-left: -28px;
 }
 .q-text {
+  /* Always two lines tall, so a short or long quote never shifts the centred page. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.7em;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 14px;
